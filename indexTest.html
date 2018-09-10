@@ -1,0 +1,38 @@
+<head>
+</head>
+<body onload="_()">
+<div id="a" tabindex="0">
+<div id="desc">Site under construction.</div>
+</div>
+<div id="p"></div>
+<style type="text/css">
+#p{position:absolute;background-color:red;width:10px;height:10px;} 
+/*#a{background-color:green;width:400em;height:400em;}*/
+</style>
+<script type="text/javascript">
+var t=0,l=0,r=0,b=0;
+function $(a){return document.querySelector(a);}
+function $$(a){return document.querySelectorAll(a);}
+function _(){
+	//$('#a').innerHTML = "Hello World";
+document.addEventListener('keydown', (event) => {
+	const k = event.key;
+	switch(k){
+		case 'ArrowUp':t += 10;
+			$('#p').style.top = t + '';
+			break;
+		case 'ArrowDown':t -= 10;
+			$('#p').style.top = t + '';
+			break;
+		default:
+			$('#a').innerHTML = k;
+	}
+});
+	var b = "Hello World";
+}
+
+Nodelist.prototype.on = function(eventType){
+	console.log("On works" + eventType);
+}
+</script>
+</body>
