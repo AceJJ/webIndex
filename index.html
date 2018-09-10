@@ -1,38 +1,60 @@
 <head>
+<title>High Stakes Mobile Games</title>
 </head>
 <body onload="_()">
+<div id="header">
+<img id="logo" src="LogoGrey.svg"/>
+</div>
 <div id="a" tabindex="0">
-<div id="desc">Site under construction.</div>
+<div id="desc">Site under Construction. Coming soon</div>
 </div>
 <div id="p"></div>
 <style type="text/css">
-#p{position:absolute;background-color:red;width:10px;height:10px;} 
-/*#a{background-color:green;width:400em;height:400em;}*/
+body{
+	margin:0px;
+}
+#header{
+	text-align:center;
+	background-color:#2C2A23;
+	width:100%;
+	height:76px;
+}
+#logo{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:132px;
+	height:56px;
+}
+#desc{
+	text-align:center;
+	margin-top:30px;
+	font-size:22px;
+}
+#p{
+	position:absolute;
+	background-color:red;
+	width:10px;
+	height:10px;
+}
 </style>
 <script type="text/javascript">
-var t=0,l=0,r=0,b=0;
+var t=50,l=0,r=0,b=0;
 function $(a){return document.querySelector(a);}
 function $$(a){return document.querySelectorAll(a);}
 function _(){
-	//$('#a').innerHTML = "Hello World";
-document.addEventListener('keydown', (event) => {
-	const k = event.key;
-	switch(k){
-		case 'ArrowUp':t += 10;
-			$('#p').style.top = t + '';
-			break;
-		case 'ArrowDown':t -= 10;
-			$('#p').style.top = t + '';
-			break;
-		default:
-			$('#a').innerHTML = k;
-	}
-});
-	var b = "Hello World";
-}
-
-Nodelist.prototype.on = function(eventType){
-	console.log("On works" + eventType);
+	document.addEventListener('keydown', (event) => {
+		const k = event.key;
+		switch(k){
+			case 'ArrowUp':t += 10;
+				$('#p').style.top = t + '';
+				break;
+			case 'ArrowDown':t -= 10;
+				$('#p').style.top = t + '';
+				break;
+			default:
+				$('#a').innerHTML = k;
+		}
+	});
 }
 </script>
 </body>
