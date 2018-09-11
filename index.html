@@ -1,60 +1,44 @@
+<!DOCTYPE html>
+<html>
 <head>
 <title>High Stakes Mobile Games</title>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="description" content="Difficult Games for iOS and Android">
+<meta name="keywords" content="Rocket Burger, games">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css">
 </head>
 <body onload="_()">
 <div id="header">
 <img id="logo" src="Images/LogoGrey.svg"/>
+<div id="menu">
+<div>Web Games</div>
+<div>Mobile Games</div>
+<div>About</div>
 </div>
-<div id="a" tabindex="0">
+</div>
 <div id="desc">Site under Construction. Coming soon</div>
-</div>
 <div id="p"></div>
-<style type="text/css">
-body{
-	margin:0px;
-}
-#header{
-	text-align:center;
-	background-color:#2C2A23;
-	width:100%;
-	height:76px;
-}
-#logo{
-	margin-top:10px;
-	margin-bottom:10px;
-	width:132px;
-	height:56px;
-}
-#desc{
-	text-align:center;
-	margin-top:30px;
-	font-size:22px;
-}
-#p{
-	position:absolute;
-	background-color:red;
-	width:10px;
-	height:10px;
-}
-</style>
+<div id="footer">&copy; Copyright 2018 High Stakes Games</div>
 <script type="text/javascript">
-var t=50,l=0,r=0,b=0;
-function $(a){return document.querySelector(a);}
-function $$(a){return document.querySelectorAll(a);}
+var t=113;
+function $(a){return document.querySelector(a);}function $$(a){return document.querySelectorAll(a);}
 function _(){
 	document.addEventListener('keydown', (event) => {
 		const k = event.key;
 		switch(k){
-			case 'ArrowUp':t += 10;
+			case 'ArrowUp':t -= 10;
 				$('#p').style.top = t + '';
 				break;
-			case 'ArrowDown':t -= 10;
+			case 'ArrowDown':t += 10;
 				$('#p').style.top = t + '';
 				break;
 			default:
-				$('#a').innerHTML = k;
+				break;
 		}
 	});
 }
 </script>
 </body>
+</html>
