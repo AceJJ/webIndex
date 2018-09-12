@@ -1,7 +1,7 @@
 'use strict'
 function $(a){return document.querySelector(a);}function $$(a){return document.querySelectorAll(a);}
 function _(){
-	const h = '<img id="logo" src="Images/LogoGrey.svg"/>' +
+	const h = '<a href="index.html"><img id="logo" src="Images/LogoGrey.svg"/></a>' +
 			  '<div id="menu">' +
 			  '<a href="onlinegames.html"><div>Web</div></a>' +
 		      '<a href="mobile.html"><div>Mobile</div></a>' +
