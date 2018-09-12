@@ -4,21 +4,26 @@
 <title>High Stakes Games</title>
 <meta charset="UTF-8">
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="Difficult Games for iOS and Android">
-<meta name="keywords" content="Rocket Burger, games">
+<meta name="description" content="Difficult Web Based and Mobile Games">
+<meta name="keywords" content="ios games, games, rocket burger, web games">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style/main.css">
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 <script src="js/home.js"></script>
 </head>
-<body>
+<body onload="_()">
 <div id="header">
 	<img id="logo" src="Images/LogoGrey.svg"/>
 	<div id="menu">
-		<div>Web Games</div><div>Mobile Games</div><div>About</div>
+		<div>Web</div><div>Mobile</div><div>About</div>
 	</div>
 </div>
-<div id="desc">Site under Construction. Coming soon</div>
-<div id="p"></div>
-<div id="footer">&copy; Copyright 2018 High Stakes Games</div>
+<div id="desc">Site under Construction. Coming soon.</div>
+<div id="footer">
+	&copy; Copyright 2018 High Stakes Games, LLC. Use of this site constitutes acceptance of the&nbsp;
+	<span id="Tos">Terms of Service</span>
+</div>
 </body>
 </html>
