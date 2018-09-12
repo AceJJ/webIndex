@@ -30,12 +30,14 @@ body{
 	margin-left:70px;
 	width:132px;
 	height:56px;
+	cursor:pointer;
 }
 #main{
-	text-align:center;
-	padding:30px;
-	font-size:22px;
-	min-height:450px;
+	text-align: center;
+	padding: 30px;
+	font-size: 22px;
+	padding-bottom: 70px;
+	min-height: calc(100vh - 206px);
 }
 #p{
 	position:absolute;
@@ -49,7 +51,6 @@ body{
 	text-align:center;
 	color: #CECECE;
 	font-size: 14px;
-	margin-top:40px;
 	background-color:#2C2A23;
 	height:20px;
 	padding-top:5px;
