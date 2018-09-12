@@ -22,8 +22,7 @@ body{
 	font: 20px Verdana, Helvetica, sans-serf;
 }
 #menu div:hover{
-	background-color:#CECECE;
-	color:#2C2A23;
+	color:#FF0808;
 }
 #logo{
 	margin-top:10px;
@@ -47,6 +46,16 @@ body{
 }
 #footer{
 	text-align:center;
+	color: #CECECE;
 	font-size: 14px;
 	margin-top:40px;
+	background-color:#2C2A23;
+	height:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:100%;
+}
+#Tos{
+	color:#0087B8;
+	cursor:pointer;
 }
