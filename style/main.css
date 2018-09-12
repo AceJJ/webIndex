@@ -1,5 +1,6 @@
 body{
 	margin:0px;
+	background-color:#2C2A23;
 }
 #header{
 	background-color:#2C2A23;
@@ -38,14 +39,7 @@ body{
 	font-size: 22px;
 	padding-bottom: 70px;
 	min-height: calc(100vh - 206px);
-}
-#p{
-	position:absolute;
-	background-color:red;
-	top:113px;
-	left:20px;
-	width:10px;
-	height:10px;
+	background-color:#F2F2F2;
 }
 #footer{
 	text-align:center;
