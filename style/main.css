@@ -20,8 +20,16 @@ body{margin:0px;background-color:#2C2A23;}
 .backImg{position:relative;width:1122px;height:1785px;vertical-align:middle;
 	font:18px Garamond,Georgia,sans-serif;background-image:url("rb1122.png");background-repeat: no-repeat;background-position: center;max-width:100vw;}
 @media only screen and (min-width:1100px){.backImg{background-image:url("rb2244.png");width:2244px;height:3570px;}}
-.backText{width:calc(84vw - 8px);left:8vw;position:relative;top:300px;background-color:rgba(255, 255, 255, 0.7);padding:4px;border-radius:8px;
-border-bottom:3px solid #1f1f1f;border-right:2px solid #1f1f1f;}
+.backText{width:calc(84vw - 8px);
+left:8vw;
+position:relative;
+margin-top:130px;
+background-color:rgba(255, 255, 255, 0.7);
+padding:4px;
+border-radius:8px;
+border-bottom:3px solid #1f1f1f;
+border-right:2px solid #1f1f1f;}
 .backText:nth-of-type(even){border-bottom:3px solid red;border-right:2px solid red;}
-.more{background-color:#71E773;color:#e6e7e8;padding:8px;position:absolute;left:calc(50% - 61px);border-radius:4px;font:20px Andale Mono,Helvetica,sans-serf;cursor:pointer;}
+.more{background-color:#71E773;color:#e6e7e8;padding:8px;top:70px;position:relative;border-radius:4px;
+font:20px Andale Mono,Helvetica,sans-serf;cursor:pointer;}
 #r{width:480px;max-width:75vw;position:relative;top:100px;}
