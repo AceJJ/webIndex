@@ -29,5 +29,5 @@ border-radius:8px;border-bottom:3px solid #1f1f1f;border-right:2px solid #1f1f1f
 font:20px Andale Mono,Helvetica,sans-serf;cursor:pointer;}
 #r{width:480px;max-width:75vw;position:relative;top:100px;}
 #l{width:240px;float:left;}
-.desc{background-color:#FF0808;color:#2C2A23;padding:10px;padding-bottom:10px;font:18px Verdana,Helvetica;}
+.desc{color:#2C2A23;padding:25px;font:18px Verdana,Helvetica;}
 #rback{height:247px;vertical-align:middle;background-image:url('rback.png');color:#FF0808}
