@@ -1,4 +1,5 @@
-body{margin:0px;background-color:#2C2A23;}a{text-decoration:none;}
+body{user-select: none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+margin:0px;background-color:#2C2A23;}a{text-decoration:none;}
 #headerBody{background-color:#2C2A23;width:100%;height:76px;position:fixed;top:0px;left:0px;z-index:10;}
 #hBack{background-color:#2C2A23;width:100%;height:76px;}#header,#footer{z-index:2;}
 #header .respDisp{background-color:#2C2A23;width:100%;height:56px;position:relative;text-align:center;}
